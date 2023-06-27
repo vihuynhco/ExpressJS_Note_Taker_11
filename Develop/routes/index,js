@@ -1,0 +1,18 @@
+const express = require('express');
+
+const router = require('express').Router();
+const apiRoutes = require('./apiRoutes');
+const htmlRoutes = require('./htmlRoutes');
+const app = express();
+
+
+router.use('/api', apiRoutes);  
+router.use('/', htmlRoutes);   // This is the default route
+
+// Middleware for parsing JSON and urlencoded form data
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+
+
+module.exports = router;
