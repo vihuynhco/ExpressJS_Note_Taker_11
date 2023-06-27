@@ -6,6 +6,8 @@ ExpressJS Note Taker App
 
 Note Taker is a web based app, built with Express.js and allows users to write, store, and deletee their notes. The app provides a simple and east user interface to help users organize their thoughts and track the asks they need to complete. It uses Express.js back end to handle data storage and retrieval from a JSON file. The application is designed to be easy to use and efficient in making it ideal for small business owners or anyone who needs a convenient note-taking option.
 
+Deployed application:   <https://morning-lake-99033-e8c05a948be4.herokuapp.com/>
+
 ## Table of Contents
 
 * [Installation](#installation)
